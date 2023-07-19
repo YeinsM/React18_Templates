@@ -1,9 +1,8 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import reactLogo from "../assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import { SetColor } from "./layout/settings/setColor";
-// import Sidebar from "./layout/sidebar/sidebar";
+import { SetColor } from "../layout/settings/setColor";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -20,14 +19,7 @@ function App() {
             >
                 {/* After we need to repair this <Sidebar /> */}
                 <SetColor onColorChange={handleColorChange} />
-                <div className="d-grid gap-2 d-md-block">
-                    <button className="btn btn-primary btn-circle" type="button">
-                        B
-                    </button>
-                    <button className="btn btn-primary btn-rounded" type="button">
-                        B
-                    </button>
-                </div>
+                
                 <div>
                     <a
                         href="https://vitejs.dev"

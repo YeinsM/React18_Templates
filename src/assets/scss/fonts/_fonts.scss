@@ -1,0 +1,24 @@
+//
+// Premium Font : Samsung Sharp Sans
+//
+
+@font-face {
+    font-family: "samsungsharpsans";
+    src: url("../../fonts/samsungsharpsans-regular.otf");
+    src: local('samsungsharpsans regular'), url("../../fonts/samsungsharpsans-regular.woff") format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "samsungsharpsans";
+    src: url("../../fonts/samsungsharpsans-medium.otf");
+    src: local('samsungsharpsans medium'), url("../../fonts/samsungsharpsans-medium.woff") format("woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "samsungsharpsans";
+    src: url("../../fonts/samsungsharpsans-bold.otf");
+    src: local('samsungsharpsans bold'), url("../../fonts/samsungsharpsans-bold.woff") format("woff");
+    font-weight: 700;
+}
